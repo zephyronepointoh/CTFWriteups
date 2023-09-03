@@ -4,3 +4,5 @@ Flag Art
 I encoded the flag in a painting. Enjoy!
 
 Author: joseph
+
+//Category: Beginner
