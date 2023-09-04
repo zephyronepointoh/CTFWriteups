@@ -1,6 +1,6 @@
 ## By James Crowley
 
-For this challenge, we were given [code](DownUnderCTF 2023/Given Info/flag-art.py) that produced a file. The [file](/DownUnderCTF_2023/Given_Info/output.txt) was made up of the characters .=w-o^* seemingly randomly assigned and arranged in the shape of the contest logo. 
+For this challenge, we were given [code](DownUnderCTF%202023/Given%20Info/flag-art.py) that produced a file. The [file](/DownUnderCTF%202023/Given%20Info/output.txt) was made up of the characters .=w-o^* seemingly randomly assigned and arranged in the shape of the contest logo. 
 
 ---
 
