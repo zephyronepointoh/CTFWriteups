@@ -1,10 +1,27 @@
-## By James Crowley
+# flag art
+## The Challenge
+### By James Crowley
 
-For this challenge, we were given [code](/DownUnderCTF%202023/Given%20Info/flag-art.py) that produced a [file](/DownUnderCTF%202023/Given%20Info/output.txt). The file was made up of the characters .=w-o^* seemingly randomly assigned and arranged in the shape of the contest logo. The [description](/DownUnderCTF%202023/Given%20Info/description.txt stated that the flag ha d been encoded into the output file. 
- 
+For this challenge, we were given [code](/DownUnderCTF%202023/Given%20Info/flag-art.py) that produced a [file](/DownUnderCTF%202023/Given%20Info/output.txt). The file was made up of the characters .=w-o^* seemingly randomly assigned and arranged in the shape of the contest logo. The description was as follows:
+
+
+<p align="center">
+  <img src="https://github.com/zephyronepointoh/CTFWriteups/assets/97200193/cfadd02c-4eaf-43e3-af41-4c34fc22cc6f", width = 500 />
+</p>
+
+and the image:
+
+<p align="center">
+  <img src="https://github.com/zephyronepointoh/CTFWriteups/assets/97200193/b16178e6-c48a-4a48-a679-14ede52f8add", width = 600 />
+</p>
+
+
+
+
+
 ---
 
-The code we started with is as follows:
+The code is as follows:
 
 ```
 message = open('./message.txt', 'rb').read() + open('./flag.txt', 'rb').read()
@@ -115,7 +132,7 @@ Because I am apparently allergic to strings, I used a list, and the .join() meth
 Congratulations on solving this challenge! The mask has 900 X's so here are some random words to make the message long enough. Your flag is: DUCTF{r3c0nstruct10n_0f_fl4g_fr0m_fl4g_4r7_by_l00kup_t4bl3_0r_ch1n3s3_r3m41nd3r1ng?}
 ```
 
-## The Rabbit Hole
+## The Subsequent Rabbit Hole
 
 To answer the flag's question, basically a lookup table. I actually had never heard of the Chinese Remainder Theorem. 
 
