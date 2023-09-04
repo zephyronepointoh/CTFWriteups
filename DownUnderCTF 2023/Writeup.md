@@ -1,5 +1,5 @@
 # flag art
-### Solved By James Crowley
+### Solution By James Crowley
 
 For this challenge, we were given [code](/DownUnderCTF%202023/Given%20Info/flag-art.py) that produced a [file](/DownUnderCTF%202023/Given%20Info/output.txt). The file was made up of the characters .=w-o^* seemingly randomly assigned and arranged in the shape of the contest logo. The description was as follows:
 
