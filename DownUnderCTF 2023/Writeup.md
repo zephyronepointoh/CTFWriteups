@@ -1,6 +1,5 @@
 # flag art
-## The Challenge
-### By James Crowley
+### Solved By James Crowley
 
 For this challenge, we were given [code](/DownUnderCTF%202023/Given%20Info/flag-art.py) that produced a [file](/DownUnderCTF%202023/Given%20Info/output.txt). The file was made up of the characters .=w-o^* seemingly randomly assigned and arranged in the shape of the contest logo. The description was as follows:
 
@@ -132,7 +131,7 @@ Because I am apparently allergic to strings, I used a list, and the .join() meth
 Congratulations on solving this challenge! The mask has 900 X's so here are some random words to make the message long enough. Your flag is: DUCTF{r3c0nstruct10n_0f_fl4g_fr0m_fl4g_4r7_by_l00kup_t4bl3_0r_ch1n3s3_r3m41nd3r1ng?}
 ```
 
-## The Subsequent Rabbit Hole
+# The Subsequent Rabbit Hole
 
 To answer the flag's question, basically a lookup table. I actually had never heard of the Chinese Remainder Theorem. 
 
