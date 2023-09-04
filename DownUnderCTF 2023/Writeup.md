@@ -1,6 +1,6 @@
 ## By James Crowley
 
-For this challenge, we were given [code](Given_Info/flag_art.py) that produced a file. The [file](Given_Info/output.txt) was made up of the characters .=w-o^* seemingly randomly assigned and arranged in the shape of the contest logo. 
+For this challenge, we were given [code](/DownUnderCTF_2023/Given_Info/flag_art.py) that produced a file. The [file](/DownUnderCTF_2023/Given_Info/output.txt) was made up of the characters .=w-o^* seemingly randomly assigned and arranged in the shape of the contest logo. 
 
 ---
 
