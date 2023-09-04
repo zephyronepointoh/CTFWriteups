@@ -1,5 +1,9 @@
 ## By James Crowley
 
+For this challenge, we were given [code] that produced a file. The file was made up of the characters .=w-o^* seemingly randomly assigned and arranged in the shape of the contest logo. 
+
+---
+
 The code we started with is as follows:
 
 ```
@@ -110,7 +114,10 @@ Because I am apparently allergic to strings, I used a list, and the .join() meth
 ```
 Congratulations on solving this challenge! The mask has 900 X's so here are some random words to make the message long enough. Your flag is: DUCTF{r3c0nstruct10n_0f_fl4g_fr0m_fl4g_4r7_by_l00kup_t4bl3_0r_ch1n3s3_r3m41nd3r1ng?}
 ```
-To answer the flag's question, basically a lookup table. I actually had never heard of the Chinese Remainder Theorem. We learn something new every day. 
+
+## The Rabbit Hole
+
+To answer the flag's question, basically a lookup table. I actually had never heard of the Chinese Remainder Theorem. 
 
 Essentially, it says if you know the answers for a few modulus operations, where the modulus operators are coprime(none of them are divisible by each other) you can determine the original if it's less than the product of those operators. 
 
